@@ -1,0 +1,10 @@
+void main() {
+  dynamic nombre = "Amanda";
+  print(nombre);
+  
+  nombre = "Amanda";
+  print(nombre);
+  
+  final pi = 3.14;
+  print(pi);
+}

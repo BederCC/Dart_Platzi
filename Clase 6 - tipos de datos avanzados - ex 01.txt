@@ -1,0 +1,7 @@
+void main() {
+  var nombre = "Amanda";
+  print(nombre);
+  
+  nombre = "Beto";
+  print(nombre);
+}

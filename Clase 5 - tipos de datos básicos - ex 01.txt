@@ -1,0 +1,5 @@
+void main() {
+  print("Programa para saber si está soleado");
+  bool estaSoleado = true;
+  print(estaSoleado);
+}
