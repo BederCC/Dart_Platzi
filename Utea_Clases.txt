@@ -1,0 +1,14 @@
+class Alumno {
+  //Clase Alumno
+  String nombre = "Beder";
+  String apellido = "Casa";
+  int edad = 26;
+}
+
+void main(){
+  print("Clase alumno");
+  Alumno alumno1 = new Alumno();
+  print(alumno1.nombre);
+  print(alumno1.apellido);
+  print(alumno1.edad);
+}
