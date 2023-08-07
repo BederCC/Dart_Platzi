@@ -1,0 +1,16 @@
+class Persona {
+  String nombre;
+  int edad;
+
+  Persona(this.nombre, this.edad); 
+
+  void estudiar() {
+    print("Nombre: $nombre, Edad: $edad");
+  }
+}
+
+void main() {
+  var persona = Persona("juan",25);
+
+  persona.estudiar(); 
+}
